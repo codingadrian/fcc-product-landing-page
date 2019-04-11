@@ -211,7 +211,7 @@ form {
 
   .price {
     align-self: center;
-    max-width: 60vw;
+    max-width: 80vw;
     font-size: .8em;
   }
 }
@@ -228,6 +228,14 @@ form {
   line-height: 2em;
   opacity: .50;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .tag {
+    font-size: 1em;
+  }
+}
+
 
 .dollar {
   font-size: 2em;
