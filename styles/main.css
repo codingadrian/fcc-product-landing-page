@@ -1,0 +1,225 @@
+
+/*@imports*/
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
+/*Reset CSS*/
+* {
+  box-sizing: border-box;
+  color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*Global Styles*/
+
+body {
+  background-color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;  
+}
+
+/*All sections and footer have a set width and are centered through a auto margin rule*/
+section, footer {
+  margin: 50px auto;
+  width: 80vw;  
+}
+
+/*page-styles*/
+
+/*main-container*/
+
+#main-container {
+  width: 100vw;
+}
+
+/*header*/
+
+#header {
+  border: 1px solid black;
+  display: flex;
+  padding-top: 15px;
+  width: 100%;
+}
+
+#logo {
+  align-self: left;
+}
+
+#header-img {
+  height: auto;
+  margin: 0 25px;
+  max-width: 5vh;
+}
+
+#nav-bar {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 90vw;
+}
+
+#nav-bar a {
+  margin: 0 10px;
+}
+
+#nav-bar a:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+}
+
+/*I have to make this bar fixed.*/
+
+
+/*Subscribe*/
+
+#subscribe {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#email {
+  background: black;
+  border: none;
+  color: white;
+  height: 4vh;
+  margin: 20px 0;
+  padding: 4px;
+}
+
+
+#submit {
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 4px; 
+  text-transform: uppercase;
+}
+
+
+/*Video*/
+
+#how-it-works {
+  align-items: center;
+  display: flex;
+  height: 25vw;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #video {
+    max-width: 99%;
+    height: 99%;
+  }
+}
+
+
+/*Features*/
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-row {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  width: 50vw;  
+}
+
+.icon {
+  margin-right: 15px;
+  height: auto;
+  width: 8vw;
+}
+
+.feature {
+  font-size: 1.1em;
+  width: 80vw;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.fas {
+  color: orange;
+  font-size: 3.3em;
+}
+
+/*Pricing*/
+
+#prices {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.price {
+  text-align: center;
+  width: 20vw;
+}
+
+.price p {
+  margin: 12px 20px;
+}
+
+.tag {
+  background: lavender;
+  display: block;
+  font-size: 2em;
+  line-height: 2em;
+  opacity: .50;
+}
+
+.dollar {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#disclaimer {
+  text-align: center;
+}
+
+
+
+/*Footer*/
+footer {
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+#bottom-nav, #copyright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#bottom-nav a {
+  margin: 15px;
+}
+
+#copyright {
+  margin-right: 15px;
+}
+
+  
