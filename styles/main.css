@@ -153,10 +153,29 @@ form {
   width: 8vw;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .icon {
+    margin-right: 20px;
+    height: auto;
+    width: 6vw;
+  }
+}
+
+
 .feature {
   font-size: 1.1em;
   width: 80vw;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .feature {
+    font-size: 1em;
+    margin-left: 15px;
+  }
+}
+
 
 .feature-title {
   font-weight: bold;
@@ -175,10 +194,28 @@ form {
   margin: 15px 0;
 }
 
+@media only screen and (max-width: 600px) {
+
+  #prices {
+    flex-direction: column;
+  }
+}
+
+
 .price {
   text-align: center;
   width: 20vw;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .price {
+    align-self: center;
+    max-width: 60vw;
+    font-size: .8em;
+  }
+}
+
 
 .price p {
   margin: 12px 20px;
@@ -201,6 +238,14 @@ form {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+
+  #disclaimer {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 99%;
+  }
+}
 
 
 /*Footer*/
