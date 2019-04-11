@@ -233,6 +233,7 @@ form {
 
   .tag {
     font-size: 1em;
+    background-color: transparent;
   }
 }
 
