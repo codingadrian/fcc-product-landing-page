@@ -211,9 +211,10 @@ form {
 
   .price {
     align-self: center;
-    max-width: 80vw;
     font-size: .8em;
+    width: 100%
   }
+
 }
 
 
@@ -232,7 +233,7 @@ form {
 @media only screen and (max-width: 600px) {
 
   .tag {
-    font-size: 1em;
+    font-size: 1.3em;
     background-color: transparent;
   }
 }
