@@ -38,14 +38,20 @@ section, footer {
 /*header*/
 
 #header {
+  background-color: white;
   border: 1px solid black;
-  display: flex;
+  height: 20vh;
   padding-top: 15px;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
+  
 }
 
+
 #logo {
-  align-self: left;
+  float: left;
 }
 
 #header-img {
@@ -55,14 +61,13 @@ section, footer {
 }
 
 #nav-bar {
-  align-items: center;
-  display: flex;
-  justify-content: flex-end;
-  width: 90vw;
+  float: right;
+  width: 80vw;
 }
 
 #nav-bar a {
   margin: 0 10px;
+  float: right;
 }
 
 #nav-bar a:hover {
@@ -70,8 +75,14 @@ section, footer {
   text-decoration: underline;
 }
 
-/*I have to make this bar fixed.*/
 
+
+/*relative-container*/
+
+#relative-container {
+  position: relative;
+  top: 20vh;
+}
 
 /*Subscribe*/
 

@@ -1,18 +1,28 @@
 
 
-# Title goes here
+# FCC - Product Landing Page
 
-Subtitle or short description goes here
+Code a product landing page for FCC using flexbox
 
 ## Motivation for the project
 
+I am working towards becoming a self-taught developer.
+
 ## Author
+
+My name is Adrian Robles, I am a 32 y.o. Costa Rica, new to web development and eager to learn more.
 
 ## Goal
 
+To complete the page passing all the tests and to apply flexbox to the design.
+
 ## Achievements
 
-## Resources
+[X] Tests passed
+[X] Flexbox usage
+[X] Satisfaction
+
+
 
 
 
